@@ -1,12 +1,11 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
-
+// tailwind.config.js
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
-        serif: ["Merriweather", ...defaultTheme.fontFamily.serif],
+        sans: ["Inter", "sans-serif"],
+        serif: ["Merriweather", "serif"],
       },
       colors: {
         primary: {
@@ -25,8 +24,6 @@ module.exports = {
       },
     },
   },
-  variants: {
-    extend: {},
-  },
+  variants: {},
   plugins: [],
 };
