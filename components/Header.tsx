@@ -1,3 +1,4 @@
+// components/Header.tsx
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Logo from "./Logo";

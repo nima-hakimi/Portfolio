@@ -1,10 +1,9 @@
+// components/Logo.tsx
+import React from "react";
+
 const Logo: React.FC = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <h1 className="text-4xl font-bold text-purple-600">
-        N<span className="text-blue-600">.</span>HAKIMI
-      </h1>
-    </div>
+    <h1 className="text-2xl font-bold text-white tracking-wide">N.HAKIMI</h1>
   );
 };
 
